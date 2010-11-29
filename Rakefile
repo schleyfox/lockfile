@@ -4,8 +4,8 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "cleverua-lockfile"
-    gem.summary = %Q{Helps you to maintain lock files that indicate that some resource is occupied by an other process}
+    gem.name = "schleyfox-lockfile"
+    gem.summary = %Q{Because everyone needs their own lockfile implementation. Helps you to maintain lock files that indicate that some resource is occupied by an other process}
     gem.description = %Q{This Ruby gem helps to manage processes in your application so that new process won’t start while the previous one is still running. It uses so known 'lock file' approach to figure out whether a process is running or not.}
     gem.email = "pavlo@cleverua.com"
     gem.homepage = "http://github.com/cleverua/lockfile"
